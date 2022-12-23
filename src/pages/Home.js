@@ -13,10 +13,10 @@ function Home() {
         <h2> Hi, My Name is Swapnil</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <Link to={"//www.linkedin.com/in/swapnil-jadhav03"}><LinkedInIcon/></Link>
-          <Link to={"//mailto:swapniljadhav6022@gmail.com"}><EmailIcon /></Link>
-          <Link to={"//www.github.com/swapnil-2503"}><GithubIcon /></Link>
-         <Link to={"//www.youtube.com/@CoderSj"}><YouTube/></Link>
+          <Link to={"www.linkedin.com/in/swapnil-jadhav03"}><LinkedInIcon/></Link>
+          <Link to={"mailto:swapniljadhav6022@gmail.com"}><EmailIcon /></Link>
+          <Link to={"www.github.com/swapnil-2503"}><GithubIcon /></Link>
+         <Link to={"www.youtube.com/@CoderSj"}><YouTube/></Link>
         </div>
       </div>
       <div className="skills">
@@ -67,8 +67,8 @@ function Home() {
         <h4>Coding Profiles</h4>
         <ul className="list4">
           <li className="item"><a href="https://www.codechef.com/users/the_sj">Codechef</a></li>
-          <li className="item"><a href="//www.leetcode.com/swapnil-2503">Leetcode</a></li>
-          <li className="item"><a href="//www.hackerrank.com/swapniljadhav_s1">Hackerrank</a></li>
+          <li className="item"><a href="www.leetcode.com/swapnil-2503">Leetcode</a></li>
+          <li className="item"><a href="www.hackerrank.com/swapniljadhav_s1">Hackerrank</a></li>
           <li className="item"><a href="https://www.hackerearth.com/@swapnil_2003">Hackerearth</a></li>
           <li className="item"><a href="https://auth.geeksforgeeks.org/user/swapniljadhav6022">GeeksForGeeks</a></li>
         </ul>
