@@ -12,6 +12,10 @@ function Navbar() {
     setExpandNavbar(false);
   }, [location]);
 
+  const isActive = (path) => {
+    return location.pathname === path ? "active" : "";
+  };
+
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -24,9 +28,21 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/experience"> Journey </Link>
+        <Link to="/" className={isActive("/")}>
+          Home
+        </Link>
+        <Link to="/projects" className={isActive("/projects")}>
+          Projects
+        </Link>
+        <Link to="/experience" className={isActive("/experience")}>
+          Journey
+        </Link>
+        <Link to="/profile" className={isActive("/profile")}>
+          Profiles
+        </Link>
+        <Link to="/blogs" className={isActive("/blogs")}>
+          Blogs
+        </Link>
       </div>
     </div>
   );

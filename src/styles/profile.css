@@ -1,0 +1,97 @@
+.ProfilePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.ListOf {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.List {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.list1,
+.list2,
+.list3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.list1 li:before {
+  content: "\f0ae";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #4caf50;
+}
+
+.list2 li:before {
+  content: "\f0ac";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #f44336;
+}
+
+.list3 li:before {
+  content: "\f121";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #2196f3;
+}
+
+.item {
+  font-size: 16px;
+  margin: 5px 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfilePage {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .ListOf {
+    text-align: center;
+  }
+  
+  .block {
+    margin-bottom: 20px;
+  }
+  
+  .List {
+    font-size: 20px;
+  }
+  
+  .item {
+    margin: 10px 20px;
+  }
+}
